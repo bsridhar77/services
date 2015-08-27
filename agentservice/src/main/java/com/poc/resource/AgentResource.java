@@ -10,6 +10,7 @@ import com.poc.model.Agent;
 
 
 @Path("/agent")
+@Produces(MediaType.APPLICATION_JSON)
 public class AgentResource {
 
 	 private final String template;

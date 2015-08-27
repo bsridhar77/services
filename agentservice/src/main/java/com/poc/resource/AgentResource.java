@@ -10,7 +10,7 @@ import com.poc.model.Agent;
 
 
 @Path("/agent")
-public class AgentResource implements AgentContract{
+public class AgentResource {
 
 	 private final String template;
 	 
